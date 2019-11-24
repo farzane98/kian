@@ -1,0 +1,29 @@
+#content{
+    width: 1200px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.bo1{
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 45px;
+}
+.bo2{
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+float: left;
+margin: 45px;
+}
+.bo3{
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 45px;
+}
+br{
+    clear: both;
+}

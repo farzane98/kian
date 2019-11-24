@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+.box1{
+    background-color: white;
+    
+}
+.box-01{
+    background-color: lightgray;
+}
+h3{
+    background-color: red;
+    
+}
+.box2{
+    background-color: rgb(256, 185, 180);
+}
