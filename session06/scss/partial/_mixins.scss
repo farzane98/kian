@@ -1,0 +1,10 @@
+@mixin link {
+    color:green;
+    &:active{
+        color:red;
+    }
+    &:hover{
+        color: blue;
+    }
+    
+}
