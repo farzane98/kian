@@ -1,10 +1,10 @@
-@mixin link {
-    color:green;
+@mixin link ($color, $active, $hover){
+    color:$color;
     &:active{
-        color:red;
+        color:$active;
     }
     &:hover{
-        color: blue;
+        color: $hover;
     }
     
 }
