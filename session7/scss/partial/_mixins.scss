@@ -1,0 +1,28 @@
+@mixin media ($view-port) {
+    @if $view-port==xs{
+        @media (max-width:576px){
+            @content;
+        }
+    } 
+    @else if $view-port==sm{
+        @media (min-width:576px){
+            @content;
+        }
+    }
+    @else if $view-port==md{
+        @media (min-width:768px){
+            @content;
+        }
+    }
+    @else if $view-port==lg{
+        @media (min-width:992px){
+            @content;
+        }
+    }
+    @else if $view-port==xl{
+        @media (min-width:1200px){
+            @content;
+        }
+    }
+}
+

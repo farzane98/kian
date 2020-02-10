@@ -1,0 +1,29 @@
+@media (max-width: 576px) {
+  body {
+    background-color: skyblue;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: teal;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: olive;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: orangered;
+  }
+}
