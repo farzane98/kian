@@ -1,0 +1,22 @@
+
+@import "./partial/mixins";
+
+
+body{
+    @include media(xs){
+        background-color: skyblue;
+    }
+    @include media (sm){
+        background-color: teal;
+    }
+    @include media (md){
+        background-color: orange;
+    }
+    @include media (lg){
+        background-color:olive;
+    }
+    @include media (xl){
+        background-color:orangered;
+    }
+
+}
