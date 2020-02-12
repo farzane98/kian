@@ -1,0 +1,13 @@
+.nav-header .hover:hover {
+  background-color: #555;
+}
+
+.box {
+  height: 60vh;
+}
+
+.car-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
