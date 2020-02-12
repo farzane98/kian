@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/title-img.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/dist/main.css">
+    <title>Simple web site</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-dark">
+                <nav class="nav-header">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item px-4 hover"><a href="#" class="nav-link text-white">HOME</a></li>
+                        <li class="nav-item px-4 hover"><a href="#" class="nav-link text-white">ABOUT</a></li>
+                        <li class="nav-item px-4 hover"><a href="#" class="nav-link text-white">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- end of header -->
+        <!-- carousel -->
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="carousel slide carousel-fade" id="car-01" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="carousel-indicators-item car-bullet active" data-target="#car-01" data-slide-to="0"></li>
+                        <li class="carousel-indicators-item car-bullet" data-target="#car-01" data-slide-to="1"></li>
+                        <li class="carousel-indicators-item car-bullet" data-target="#car-01" data-slide-to="2"></li>
+                        <li class="carousel-indicators-item car-bullet" data-target="#car-01" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="box bg-warning d-flex justify-content-center align-items-center">
+                                <div class="text-center"> 
+                                    <h4>Item 01</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                               
+                            </div>
+                            <div class="carousel-caption">
+                                First Slide
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box bg-info d-flex justify-content-center align-items-center">
+                                <div class="text-center">
+                                    <h4>Item 02</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption">
+                                Second Slide
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box bg-success d-flex justify-content-center align-items-center">
+                                <div class="text-center">
+                                    <h4>Item 03</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption">
+                                third Slide
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box bg-danger d-flex justify-content-center align-items-center">
+                                <div class="text-center">
+                                    <h4>Item 04</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption">
+                                Forth Slide
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#car-01" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#car-01" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- end of carousel -->
+        <!-- main -->
+        <div class="row ">
+            <div class="col-2"></div>
+            <div class="col-lg-4 my-5">
+                <div class="alert alert-warning ">
+                    <p>well come to my simple web page :)</p>
+                </div>
+                <div class="d-flex justify-content-between ">
+                    <button type="button" class="btn btn-primary"> sign in</button>
+                    <span>or</span>
+                    <button type="button" class="btn btn-primary"> sign up</button>
+                </div>
+            </div>
+            <div class="col-lg-4 my-5">
+                <div class="card">
+                    <img src="./image/kirk.jpg" alt="" class="card-img-top" width="100%" >
+                    <div class="card-body">
+                        <h4>Hi, I'm Kirk Hammett </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam fuga voluptatem error dignissimos modi est animi? Id nihil eveniet, numquam porro minus repudiandae ipsam eum possimus iste sint, maxime reprehenderit?</p>
+                        <button type="button" class="btn btn-primary btn-block">Follow me</button>
+                        <button type="button" class="btn btn-success btn-block">Contact me</button>
+                    </div>
+                
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <!-- end of main -->
+    </div>
+
+
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
