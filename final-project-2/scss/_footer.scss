@@ -1,0 +1,32 @@
+footer{
+    background-color: $mid-color;
+    color: white;
+    padding-top: 20px;
+    .btn1{
+        background-color: $btn-color;
+        color: white;
+        font-size: 14px;
+        &:focus{
+            box-shadow: 0 0 10px $btn-color;
+        }
+    }
+    .coppyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid white;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        
+    }
+    p{
+        font-size: 12px;
+
+    }
+    h5{
+        margin-bottom: 20px;
+    }
+    a{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../font/yekan/yekan.ttf);
+    font-weight: 300;
+}
+body{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: "yekan", sans-serif;
+}
+.reverse_english{
+    direction: ltr;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}

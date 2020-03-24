@@ -1,0 +1,13 @@
+.showcase{
+    background-image: url(../images/header-img.jpeg) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .text{
+        padding-right: 200px;
+    }
+
+}

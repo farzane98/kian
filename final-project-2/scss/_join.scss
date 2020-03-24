@@ -1,0 +1,57 @@
+.join{
+    background-color: $light-color;
+    padding: 20px;
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .border{
+        width: 100px;
+        height: 2px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .panel{
+        background-color: $dark-color;
+        text-align: center;
+        padding-bottom: 20px;
+        box-shadow: 3px 5px 20px #222222;
+        p{
+            font-size: 12px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        span{
+            font-size: 24px;
+            font-weight: 800;
+            display: block;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .border-panel{
+            width: 200px;
+            height: 2px;
+            background-color: whitesmoke;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .btn1{
+            background-color: $btn-color;
+            color: whitesmoke;
+            border-radius: 40px;
+            &:focus{
+                box-shadow: 0 0 10px $btn-color;
+            }
+        
+        }
+        .title{
+            font-size: 18px;
+        }
+    }
+}

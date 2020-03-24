@@ -1,0 +1,416 @@
+@font-face {
+  font-family: "yekan";
+  src: url(../font/yekan/yekan.ttf);
+  font-weight: 300;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: "yekan", sans-serif;
+}
+
+.reverse_english {
+  direction: ltr;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header .top-nav a:hover {
+  color: skyblue !important;
+}
+
+@media (max-width: 768px) {
+  .header .top-nav {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.showcase {
+  background-image: url(../images/header-img.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showcase .text {
+  padding-right: 200px;
+}
+
+.ourmission {
+  padding: 20px;
+  background-color: #303632;
+}
+
+.ourmission .border {
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.ourmission p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.ourmission i {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.ourmission h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ourmission .camera {
+  padding-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ourmission .camera h4 {
+  text-align: right;
+  margin-bottom: 20px;
+  margin: auto;
+  width: 70%;
+}
+
+.ourmission .camera p {
+  text-align: right;
+  width: 70%;
+  margin: auto;
+}
+
+.ourmission .camera img {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.collection {
+  background-color: #666666;
+  padding: 20px;
+}
+
+.collection img {
+  width: 100%;
+  -webkit-box-shadow: 2px 3px 20px #222222;
+          box-shadow: 2px 3px 20px #222222;
+}
+
+.collection .lable {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: -70px;
+  right: 0px;
+  width: 70%;
+  text-align: left;
+}
+
+.collection span {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.collection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.collection .border {
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.collection p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  background-color: #ececec;
+  padding: 20px;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery .border {
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.gallery p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery .active-1 {
+  color: skyblue !important;
+}
+
+.customers {
+  background-color: #303632;
+  padding: 20px;
+}
+
+.customers h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customers .border {
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.customers p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.customers .box {
+  padding-bottom: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customers .box .stars {
+  margin-bottom: 20px;
+}
+
+.customers .box img {
+  width: 150px;
+  height: 100px;
+  border: 0px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.customers .box p {
+  width: 60%;
+}
+
+.join {
+  background-color: #ececec;
+  padding: 20px;
+}
+
+.join h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join .border {
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.join p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.join .panel {
+  background-color: #303632;
+  text-align: center;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 3px 5px 20px #222222;
+          box-shadow: 3px 5px 20px #222222;
+}
+
+.join .panel p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join .panel span {
+  font-size: 24px;
+  font-weight: 800;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.join .panel .border-panel {
+  width: 200px;
+  height: 2px;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.join .panel .btn1 {
+  background-color: orangered;
+  color: whitesmoke;
+  border-radius: 40px;
+}
+
+.join .panel .btn1:focus {
+  -webkit-box-shadow: 0 0 10px orangered;
+          box-shadow: 0 0 10px orangered;
+}
+
+.join .panel .title {
+  font-size: 18px;
+}
+
+.contact {
+  background: url(../images/form-img.jpeg) no-repeat -200px -100px;
+  height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    background: none;
+  }
+}
+
+.contact .subscribe {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 70vh;
+  padding: 20px;
+  margin: 0px;
+}
+
+.contact .subscribe h2 {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  display: block;
+}
+
+.contact .subscribe form {
+  padding-top: 40px;
+}
+
+.contact .subscribe form input {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  border-radius: 0px;
+  font-family: "yekan";
+  cursor: pointer;
+}
+
+.contact .subscribe form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom-color: orangered;
+}
+
+.contact .subscribe form label {
+  color: whitesmoke;
+  font-family: "yekan";
+  cursor: pointer;
+}
+
+.contact .subscribe form .btn1 {
+  margin-top: 40px;
+  color: whitesmoke;
+  background-color: orangered;
+}
+
+.contact .subscribe form .btn1:focus {
+  -webkit-box-shadow: 0 0 10px orangered;
+          box-shadow: 0 0 10px orangered;
+}
+
+footer {
+  background-color: #666666;
+  color: white;
+  padding-top: 20px;
+}
+
+footer .btn1 {
+  background-color: orangered;
+  color: white;
+  font-size: 14px;
+}
+
+footer .btn1:focus {
+  -webkit-box-shadow: 0 0 10px orangered;
+          box-shadow: 0 0 10px orangered;
+}
+
+footer .coppyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid white;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer h5 {
+  margin-bottom: 20px;
+}
+
+footer a {
+  font-size: 12px;
+}

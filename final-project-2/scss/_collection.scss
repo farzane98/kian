@@ -1,0 +1,41 @@
+.collection{
+    background-color: $mid-color;
+    padding:20px ;
+    img{
+        width: 100%;
+        // padding-bottom: 40px;
+        box-shadow: 2px 3px 20px #222222;
+        // position: relative;
+    }
+    .lable{
+        background-color: rgba(0, 0, 0, .5);
+        position: relative;
+        top: -70px;
+        right: 0px;
+        width: 70%;
+        text-align: left;
+
+    }
+    span{
+        font-size: 11px;
+        padding-left: 10px;
+        // color: rgba(255, 255, 255, .8);
+        
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .border{
+        width: 100px;
+        height: 2px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}

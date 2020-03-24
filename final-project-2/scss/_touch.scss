@@ -1,0 +1,55 @@
+.contact{
+    background: url(../images/form-img.jpeg) no-repeat -200px -100px;
+    height: 70vh;
+    @media (max-width:768px) {
+        background: none;
+    }
+   
+    
+    .subscribe{
+        background-color: rgba(0, 0, 0, .9);
+        height: 70vh;
+        padding: 20px;
+        margin: 0px;
+        h2{
+            color: white;
+            padding-top: 50px;
+            text-align: center;
+            display: block;
+        }
+        form{
+            padding-top:40px ;
+            input{
+                padding: 10px 20px;
+                background-color: transparent;
+                color: whitesmoke;
+                border: none;
+                border-bottom: 1px solid whitesmoke;
+                border-radius: 0px;
+                font-family: "yekan";
+                cursor: pointer;
+                // margin: 10px;
+                &:focus{
+                    box-shadow: none;
+                    border-bottom-color:$btn-color ;
+                }
+            }
+            label{
+                color: whitesmoke;
+                font-family: "yekan";
+                cursor: pointer;
+            }
+            .btn1{
+                margin-top: 40px;
+                color: whitesmoke;
+                background-color: $btn-color;
+                &:focus{
+                    box-shadow: 0 0 10px $btn-color;
+                }
+            }
+        }
+      
+    }
+
+
+}
