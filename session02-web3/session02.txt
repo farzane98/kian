@@ -1,0 +1,11 @@
+session02
+1-true
+2-true
+3-false
+4-"5"
+5-true
+6-0
+7-true
+8-false
+9-[1,2,3,true,4,false]
+10-true
